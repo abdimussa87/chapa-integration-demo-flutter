@@ -14,8 +14,6 @@ class PaymentPage extends StatefulWidget {
 
 class _PaymentPageState extends State<PaymentPage> {
   late InAppWebViewController webViewController;
-  String url = "";
-  double progress = 0;
 
   Future<void> delay() async {
     await Future.delayed(const Duration(seconds: 2));
